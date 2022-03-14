@@ -253,6 +253,7 @@ transform: translateY(-5px) rotate(-135deg);
     -o-transition: right .3s;
     transition: right .3s;
     background-color:#cccccc;
+    z-index: 10;
 }
 .slide-title{
     width:100%;
@@ -463,6 +464,9 @@ transform: translateY(-5px) rotate(-135deg);
     height: 147px;
 }
 /*와이*/
+#why_menu{
+    padding-top: 65px;
+}
 #why{
     margin-top: 150px;
 }
