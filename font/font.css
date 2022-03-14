@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Anisver demo';
+  src: url('Anisver demo.eot');
+  src: url('Anisver demo.eot?#iefix') format('embedded-opentype'),
+       url('Anisver demo.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AnisverRegular';
+  src: url('AnisverRegular.svg#AnisverRegular') format('svg'),
+       url('AnisverRegular.ttf') format('truetype'),
+       url('AnisverRegular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+

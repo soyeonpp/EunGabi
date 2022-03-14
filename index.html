@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>은가비농장</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="wine.css">
+    <link href="images/web-icon.png" rel="icon" type="image/png" sizes="32x32" >
+</head>
+<body>
+    <div id="header">
+        <div id="header_inner">
+            <ul>
+                <li><a href="#">BRAND</a></li>
+                <li><a href="#">WINERY</a></li>
+                <li><a href="#">PROGRAM</a></li>
+                <li><a href="#"><img src="images/logo.png" alt="은가비농장 로고"></a></li>
+                <li><a href="#">CONCEPT</a></li>
+                <li><a href="#">GUIDE</a></li>
+                <li><a href="#">WHY</a></li>
+                <div class="clear"></div>
+            </ul>
+            <div id="search">
+                <a href="#"><img src="images/search.png" alt="검색 아이콘"></a>
+            </div><!--search-->
+        </div><!--header_inner-->
+        <!--햄버거버튼-->
+        <div class="container">
+            <div class="head">
+              <div class="slide-open" id="slide-open">
+                 <span class="burgur" id="burgur">
+                 <span class="top-line"></span>
+                 <span class="bot-line"></span>
+              </span>
+              </div>
+             
+              <div class="logo"><a href="#"><img src="images/logo.png" alt="은가비농장 로고"></a></div>  
+            </div>
+            <div class="body">
+              <div class="slide" id="slide">
+                            <div class="logo">은가비농장</div>
+                <ul>
+                  <li><input class="search" type="search"><input type="button" value="검색" class="button"></li>
+                  <li><a href="#section1">BRAND</a></li>
+                  <li><a href="#section2">WINERY</a></li>
+                  <li><a href="#section3">PROGRAM</a></li>
+                  <li><a href="#section4">CONCEPT</a></li>
+                  <li><a href="#section5">GUIDE</a></li>
+                  <li><a href="#section6">WHY</a></li>
+                </ul>
+              </div>
+            </div>
+         </div><!--햄버거 버튼 끝-->
+    </div><!--header-->
+    <div id="mb">
+        <img src="images/mainbanner.jpg" alt="메인배너">
+    </div><!--mb-->
+    <div id="brand">
+        <div id="brand_inner">
+            <div id="box" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300">
+                <img src="images/brand_frame1.png" alt="프레임1">
+                <h1>Brand</h1>
+                <p>
+                    어린시절 와인을 즐기시던<br class="apple"> 아버지를 보고<br>
+                    와인에 흥미를 가지게 되었습니다. <br>
+                    그런 흥미가 직접 포도를 재배해서<br class="block"> 와인을 만들어보면 어떨까? <br>
+                    라는 관심으로 변하며 <br class="block">직접 해보고 싶다는 열망이 되어 <br>
+                    숱한 어려움 끝에 지금 <br class="apple">이 자리까지 왔습니다. <br>
+                    저에게 와인이란 인생의 길잡이 이자<br class="block"> 빛같은 존재입니다. <br>
+                    그런 와인을 저 뿐만이 아니라 <br class="block">모두가 즐길 수 있길 바라는 마음으로<br>
+                    은가비 농장이라는 와인체험농장이 <br class="block">탄생하게 되었습니다.
+                </p> 
+                <img src="images/brand_frame2.png" alt="프레임2">
+            </div><!--box-->
+        </div><!--brand_inner-->
+    </div><!--brand-->
+    <div id="winery">
+      <div id="winery_inner">
+        <h1>Winery</h1>
+        <img src="images/winery_img.png" alt="와인농장사진" data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="300">
+        <p class="h2">
+          은가비농장에서 만드는 특별한 <br class="block">와이너리 투어
+        </p>
+        <p class="h1">
+          예약문의
+        </p>
+        <p class="nomal">
+          010-0228-0818 <br>
+          form818@form.com
+        </p>
+        <div id="ani">
+          <img src="images/winery_wine.png" alt="와인병" class="bottle">
+          <img src="images/winery_glass.png" alt="와인잔" class="glass">
+        </div>
+      </div><!--winery_inner-->
+    </div><!--winery-->
+    <div id="program">
+      <div id="program_inner">
+        <h1>Program</h1>
+        <div id="left">
+          <img src="images/program_winemake.png" alt="와인만들기">
+          <h2>나만의 와인만들기</h2>
+          <p>
+            포도밭에서 직접 수확한 포도를 <br class="block2">이용하여 와인을 만들어보고<br>
+            3년이상 오크통에서 숙성된 와인을 담아 <br class="block2">라벨에 원하는 메세지를 적은<br>
+            나만의 와인을 만들 수 있는 체험
+          </p>
+          <p class="left">
+            최소인원 : 2명 → 1회 <br class="block3">최대 80명 투어가능<br>
+            체험시간 : 오후 14시 ~ 오후 16시<br>
+            * 단체 15인 이상인 경우 <br class="block3">시간 별도 조정 가능<br>
+            * 체험진행시간 : 주말, 주중 <br class="block3">예약 가능
+          </p>
+          <p class="money">
+            24,000원
+          </p>
+          <img src="images/program_underline.png" alt="라인프레임">
+        </div><!--left-->
+        <div id="right">
+          <img src="images/program_foot.png" alt="와인족욕/시음">
+          <h2>와인족욕 / 와인시음</h2>
+          <p>
+            은가비농장에서 직접 만든 와인을 시음하면서<br class="block2"> 와인족욕을 할 수 있는 체험<br>
+            사랑하는 연인, 가족, 친구와 <br class="block2">여유있는 힐링할 수 있는 족욕장! <br>
+            (와인시음이 포함된 가격입니다)
+          </p>
+          <p class="left">
+            최소인원 : 1명 → 1회 <br class="block3">최대 15명 이용가능<br>
+            체험시간 : 60분<br>
+            * 단체 15인 이상인 경우<br class="block3"> 시간 별도 조정 가능<br>
+            * 체험진행시간 : 주말, 주중<br class="block3"> 예약 가능
+          </p>
+          <p class="money">
+            10,000원
+          </p>
+          <img src="images/program_underline.png" alt="라인프레임">
+        </div><!--right-->
+        <div id="reservation">
+          <p>
+            예약하러 가기<br>
+            ↓
+          </p>
+          <a href="#"><img src="images/program_clock.png" alt="예약 아이콘"></a>
+        </div><!--reservation-->
+      </div><!--program_inner-->
+    </div><!--program-->
+    <div id="concert">
+      <img src="images/concert_banner.jpg" alt="콘서트 배너">
+    </div><!--concert-->
+    <div id="guide">
+      <div id="guide_inner">
+        <h1>Guide</h1>
+        <div class="swiper mb">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="images/guide_vineyard.png" alt="포도밭">
+              <p>
+                보통 9월~10월초에 수확을 하기때문에<br>
+                이 시기에 오면 주렁주렁 달린 포도를 <br class="block">구경하실 수 있습니다. <br>
+                달콤하고 무거운 와인은 <br class="block">시기보다 조금 늦게 수확한 포도이며, <br>
+                새콤하고 신맛이 나는 와인은 <br class="block">조금 이른 시기에 수확한 포도입니다.
+              </p>
+            </div>
+            <div class="swiper-slide">
+              <img src="images/guide_winetank.png" alt="발효탱크">
+              <p>
+                와인 발효는 주로 15-18℃ 에서 이루어지며,<br>
+                포도의 품종, 와인 메이커의 의도에 따라<br class="block"> 5-8℃ 정도까지 저온 발효하는 경우도 있습니다.<br>
+                저온에서 발효할 경우 포도 껍질의 색깔이<br class="block"> 더 많이 추출되어 진한 빛깔을 가지게 되는데,<br>
+                최근 와인 트렌드에서는 진한 색상의 <br class="block">와인을 선호하는 경향이 있어<br>
+                저온 발효도 많이 사용하는 편입니다.
+              </p>
+            </div>
+            <div class="swiper-slide">
+              <img src="images/guide_barrel.png" alt="오크통">
+              <p>
+                오크나무에는 미세한 구멍들이 있습니다. <br>
+                이 구멍을 통해 공기가 출입하면서<br class="block"> 와인이 산화되고 증발합니다. <br>
+                보편적인 오크통 사이즈는 225리터인데,<br class="block"> 1년간 20리터가량의 와인이 증발합니다. <br>
+                (이를 천사의 몫이라 하여<br class="block"> ‘Angel’s share’이라고도 합니다.) <br>
+                물과 알코올이 증발됨에 따라 <br class="block">와인 자체의 향과 맛의 밀도가 높아지고, <br>
+                오크통으로 들어가는 미세한 산소는<br class="block"> 와인의 타닌을 부드럽게 산화시킵니다. <br>
+                또한 오크통을 만드는 나무가 <br class="block">쉽게 구부러지도록 살짝 굽는데 (=토스팅) <br>
+                얼마나 구웠냐에 따라 다른 풍미를 줍니다.
+              </p>
+            </div>
+            <div class="swiper-slide">
+              <img src="images/guide_tastingroom.png" alt="테이스팅룸">
+              <p>
+                양조장의 와인을 시음해볼 수 있도록<br class="block"> 만들어둔 시설입니다. <br>
+                와인을 마시면서 같이 곁들여 먹을 수 있는 <br class="block">간단한 안주도 별도로<br>
+                판매중입니다.
+              </p>
+            </div>
+            <div class="swiper-slide">
+              <img src="images/guide_footer.png" alt="족욕장">
+              <p>
+                족욕은 혈액순환을 원활하게 하고<br class="block"> 뭉친 근육이 풀어지면서 <br>
+                체내에 쌓인 노폐물을 배출하는 <br class="block">효과가 뛰어납니다. <br>
+                그러한 족욕물에 레드와인을 넣으면 <br>
+                항산화 효과가 뛰어나 피부 재생에 효과적이고<br class="block"> 각질 제거 효과가 있습니다.
+              </p>
+            </div>
+          </div>
+          <!--화살표추가-->
+          <div class="swiper-button-next mb_next"></div>
+          <div class="swiper-button-prev mb_prev"></div>
+        </div><!--mb E-->
+      </div><!--guide_inner-->
+    </div><!--guide-->
+    <div id="why">
+      <div id="why_inner">
+        <h1>Why</h1>
+        <img src="images/why_frame.png" alt="제목프레임">
+        <h3>은가비농장의 와인이 특별한 이유</h3>
+        <div class="whyimg1" data-aos="flip-right" data-aos-duration="1000" data-aos-delay="300">
+          <img src="images/why_tag.png" alt="기프트태그">
+          <h4>기프트 태그 서비스</h4>
+          <p>
+            태그 뒷면에 선물하는 사람의 이름 각인<br>
+            (요청시)
+          </p>
+        </div><!--whyimg1-->
+        <div class="whyimg2" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="300">
+          <img src="images/why_box.png" alt="문구서비스">
+          <h4>문구 서비스</h4>
+          <p>
+            기프트박스에 원하는 문구 각인 서비스<br>
+            (없을 시에는 와인 명언 각인)
+          </p>
+        </div><!--whyimg2-->
+        <div class="whyimg3" data-aos="flip-right" data-aos-duration="1000" data-aos-delay="300">
+          <img src="images/why_cookie.png" alt="과자제공">
+          <h4>과자 제공</h4>
+          <p>
+            와인에 어울리는 비스켓 제공<br>
+            (1인 1개)
+          </p>
+        </div><!--whyimg3-->
+        <div class="whyimg4" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="300">
+          <img src="images/why_grape.png" alt="검증된포도">
+          <h4>검증된 포도</h4>
+          <p>
+           은가비농장에서 직접 키운 포도
+          </p>
+        </div><!--whyimg4-->
+      </div><!--why_inner-->
+    </div><!--why-->
+    <!--랩탑용-->
+    <div id="why_laptop">
+      <h1>Why</h1>
+      <img src="images/why_frame.png" alt="제목프레임">
+      <h3>은가비농장의 와인이 특별한 이유</h3>
+      <p class="why_bg"><img src="images/why_img.png" alt="와인배경"></p>
+      <div class="laptop1">
+        <img src="images/why_tag.png" alt="기프트태그">
+        <h4>기프트 태그<br class="lapbr"> 서비스</h4>
+        <p>
+          태그 뒷면에 선물하는<br class="lapbr"> 사람의 이름 각인<br>
+          (요청시)
+        </p>
+      </div><!--laptop1-->
+      <div class="laptop2">
+        <img src="images/why_box.png" alt="문구서비스">
+        <h4>문구 서비스</h4>
+        <p>
+          기프트박스에 원하는<br class="lapbr"> 문구 각인 서비스<br>
+          (없을 시에는 와인 명언 각인)
+        </p>
+      </div><!--laptop2-->
+      <div class="clear"></div>
+      <div class="laptop3">
+        <img src="images/why_cookie.png" alt="과자제공">
+        <h4>과자 제공</h4>
+        <p>
+          와인에 어울리는<br class="lapbr"> 비스켓 제공<br>
+          (1인 1개)
+        </p>
+      </div><!--laptop3-->
+      <div class="laptop4">
+        <img src="images/why_grape.png" alt="검증된포도">
+        <h4>검증된 포도</h4>
+        <p>
+         은가비농장에서<br class="lapbr"> 직접 키운 포도
+        </p>
+      </div><!--laptop4-->
+    </div><!--why_laptop-->
+    <div id="footer">
+      <div id="footer_inner">
+        <div id="footer_logo">
+          <img src="images/footer_logo.png" alt="푸터로고">
+        </div><!--footer_logo-->
+        <div id="text">
+          <ul>
+            <li><a href="#">개인정보처리방침</a></li>
+            <li>|</li>
+            <li><a href="#">이메일 무단수집거부</a></li>
+            <li>|</li>
+            <li><a href="#">오시는길</a></li>
+          </ul>
+          <p>
+            (96818)와인광역시 포도구 포도로211길 11, 은가비농장   전화 :  051-818-0818  팩스 : 051-818-0817 <br>
+            COPTRIGHT ⓒ 2022 EUNGABI FARM. ALL RIGHT RESERVED.
+          </p>
+          <ol>
+            <li><a href="#"><img src="images/footer_sns1.png" alt="페북"></a></li>
+            <li><a href="#"><img src="images/footer_sns2.png" alt="인스타"></a></li>
+            <li><a href="#"><img src="images/footer_sns3.png" alt="유튜브"></a></li>
+          </ol>
+        </div><!--text-->
+      </div><!--footer_inner-->
+      <div class="fix">
+        <a href="#header"><img src="images/top_icon.png" alt=""></a>
+    </div><!--top E-->
+    </div><!--footer-->
+
+
+
+
+
+    <script>
+        $(function(){
+     
+      $("#slide-open").click(function()    {
+        if($("#burgur").hasClass('on')){
+          $("#burgur").removeClass('on');
+          $("#slide").removeClass('on');
+         
+        } else{
+          $("#burgur").addClass('on');
+         $("#slide").addClass('on'); 
+        }
+      });
+        
+      
+                    $('a[href*="#"]:not([href="#"])').click(function() {
+                    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+                    if (target.length) {
+                    $('html, body').animate({
+                    scrollTop: target.offset().top
+                    }, 500);//움직이는 시간 조정
+                    return false;
+                    }
+                    }
+                    });
+    
+    });
+    </script>
+
+    <script>//가이드 슬라이드
+      var swiper = new Swiper(".mb", {
+        effect: "flip",
+        grabCursor: true,
+        pagination: {
+          el: ".swiper-pagination",
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        autoplay:{
+					delay: 3000, //몇초 뒤에 슬라이드가 넘어갈지 설정. 1000=1초
+					disableOnInteraction: false
+				},
+				loop: true, //슬라이드 무한반복
+        speed: 1000,
+        flipEffect: {
+          slideShadows: false,
+        },
+      });
+    </script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>
