@@ -94,6 +94,10 @@ body{
     font-size: 100%;
     line-height: 140%;
     background: #e3e3e3 url(images/bg.png) 0% 0%;
+    overflow-x: hidden
+}
+html{
+    overflow-x: hidden
 }
 h1{
     font-family: 'Back to Black Demo';
